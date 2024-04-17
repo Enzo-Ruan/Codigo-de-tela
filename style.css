@@ -1,3 +1,61 @@
-.background{
+*{
+    font-family: "Inter", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.background{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+}
+
+.texto-rodape{
+    display: flex;
+    color: white;   
+    margin: auto;
+}
+
+p{
+    margin-right: 10px;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px; 
+    margin: 8px;
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.linha {
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.coluna {
+    flex-direction: column;
+    float: left;
+}
+
+.texto-principal {
+    width: 50%;
+}
+
+.texto-principal p {
+    padding: 30px ;
+}
+
+#imagem-final{
+    width: 80px;
+    height: 80px;
 }
